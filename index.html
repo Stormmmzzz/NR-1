@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Neural Racers — AI Lab</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<main><canvas id="c"></canvas><div id="bar"></div></main>
+<aside>
+  <h1>NEURAL RACERS <span id="gen"></span></h1>
+  <div id="stats"></div>
+  <h2>AI LAB</h2>
+  <div class="labIntro">Build a simple brain, train it, then evolve it. Your design controls the neural network underneath.</div>
+  <div id="brain"></div>
+  <div class="labActions">
+    <button id="evolveBtn">🧬 Evolve Generation</button>
+    <button id="randomBrainBtn">🎲 Random Brain</button>
+    <button id="resetBrainBtn">↺ Reset Brain</button>
+  </div>
+  <h2>CHALLENGE</h2><div id="challenge"></div>
+  <h2>LEADERBOARD</h2><div id="lb"></div>
+  <h2>FITNESS (best / mean)</h2><canvas id="ch" width="240" height="80"></canvas>
+</aside>
+<script src="js/track.js"></script><script src="js/sim.js"></script><script src="js/ui.js"></script>
+</body></html>
